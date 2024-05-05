@@ -1,0 +1,28 @@
+/* Pipe.css */
+.Pipe {
+    position: absolute;
+    right: 0;
+    width: 100px; /* Width of the pipe */
+  }
+  
+  .topPipe,
+  .bottomPipe {
+    width: 100%;
+    background-color: green; /* Color of the pipe */
+  }
+  
+  .topPipe {
+    transform-origin: bottom;
+  }
+  
+  .bottomPipe {
+    transform-origin: top;
+  }
+  
+  .pipeEnd {
+    width: 110%;
+    height: 20px;
+    position: relative;
+    background-color: #041c05; /* Color of the pipe */
+    left: -5%;
+  }

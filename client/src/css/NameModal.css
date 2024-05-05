@@ -1,0 +1,55 @@
+.NameModal {
+    position: fixed;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #dfc7a7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 2;
+}
+
+.NameModal h2 {
+    margin-bottom: 20px;
+}
+
+.NameModal input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
+
+.NameModal button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.NameModal button:hover {
+    background-color: #041c05;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.confirm {
+    background-color: green;
+    color: #fff;
+}
+
+.cancel {
+    background-color: rgba(0, 0, 0, 0);
+    outline: 2px solid green;
+    color: green;
+}

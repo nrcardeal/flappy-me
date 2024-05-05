@@ -1,0 +1,74 @@
+.RatingModal {
+    position: fixed;
+    width: 75%;
+    height: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #dfc7a7;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+.Title {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.RatingList {
+    height: fit-content;
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+    overflow-y: auto;
+    margin-bottom: 5%;
+}
+
+.RetryButton {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.button, .element {
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.element {
+    background-color: white;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.emoji, .score {
+    display: flex;
+    width: 10%;
+}
+
+.emoji {
+    justify-content: flex-start;
+}
+.score {
+    justify-content: flex-end;
+}
+.name {
+    width: 80%;
+}
+button:hover {
+    background-color: #041c05;
+}

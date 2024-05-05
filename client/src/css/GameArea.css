@@ -1,0 +1,14 @@
+/*GameArea*/
+.GameArea {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.sky {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+}
