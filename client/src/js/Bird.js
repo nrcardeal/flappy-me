@@ -39,7 +39,7 @@ function Bird({ onGameOver, onPoint }) {
     window.addEventListener('touchstart', handleTouch);
     
     return () => {
-      window.removeEventListener('keypress', handleKeyPress);
+      window.removeEventListener('keydown', handleKeyPress);
       window.removeEventListener('touchstart', handleTouch);
     };
   }, [jumping, gameOver, velocity]);

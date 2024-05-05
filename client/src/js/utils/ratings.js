@@ -2,7 +2,7 @@
 const saveRating = async (name, score) => {
     try {
         const newData = { name, score };
-        await fetch('http://192.168.1.7:5000/ratings', {
+        await fetch('https://scalloped-maple-taxi.glitch.me/ratings', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -17,7 +17,7 @@ const saveRating = async (name, score) => {
 // Function to get player ratings from JSON file
 const getRatings = async () => {
     try {
-        const response = await fetch('http://192.168.1.7:5000/ratings');
+        const response = await fetch('https://scalloped-maple-taxi.glitch.me/ratings');
         const data = await response.json();
         return data;
     } catch (error) {
