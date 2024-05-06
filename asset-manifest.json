@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/flappy-me/static/css/main.32b831c8.css",
-    "main.js": "/flappy-me/static/js/main.e2f014d9.js",
+    "main.js": "/flappy-me/static/js/main.abeb2a75.js",
     "static/media/face.jpg": "/flappy-me/static/media/face.1f976eb927e5704a8c77.jpg",
     "index.html": "/flappy-me/index.html",
     "main.32b831c8.css.map": "/flappy-me/static/css/main.32b831c8.css.map",
-    "main.e2f014d9.js.map": "/flappy-me/static/js/main.e2f014d9.js.map"
+    "main.abeb2a75.js.map": "/flappy-me/static/js/main.abeb2a75.js.map"
   },
   "entrypoints": [
     "static/css/main.32b831c8.css",
-    "static/js/main.e2f014d9.js"
+    "static/js/main.abeb2a75.js"
   ]
 }
